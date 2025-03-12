@@ -1,11 +1,10 @@
 def generate_hashtag(s):
     
-    result = ""
+    result = "#"
     
     if s == "":
         return False
     else:
-        result += "#"
         string = s.lower()
         result += string.title()
         r = result.replace(" ", "")
