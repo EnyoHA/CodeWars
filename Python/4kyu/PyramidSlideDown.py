@@ -16,6 +16,7 @@ def longest_slide_down(pyramid):
 # best practice
 
 ef longest_slide_down(p):
+    # pop removes the element at the specified position
     res = p.pop()
     while p:
         tmp = p.pop()
